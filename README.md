@@ -23,9 +23,9 @@ Directory.Delete(@"C:\User\david\test");
 `Move(sourceDirName, destDirName)` : 將sourceDirName指定的**資料夾或檔案**移動到destDirName指定的位置。
 如下所示，移動test資料夾到C:\local下，且移動後的名稱改為newtest。
 ```csharp
-Directory.Move(C:\User\david\test, C:\local\newtest);
+Directory.Move(@"C:\User\david\test", @"C:\local\newtest");
 
-Directory.Move(C:\User\david\test.txt, C:\local\newtest.txt);
+Directory.Move(@"C:\User\david\test.txt", @"C:\local\newtest.txt");
 ```
 
 ---
