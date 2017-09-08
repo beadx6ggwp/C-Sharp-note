@@ -1,14 +1,17 @@
 # 工科程式筆記
 
 # System.IO
-這裡的.IO簡介包含
+
+## Directory Class
+
+幾個常用的方法
 - `CreateDirectory(path)`
 - `Delete(path, recursive)`
 - `Move(sourceDirName, destDirName)`
 - `Exists(path)`
 - `GetCurrentDirectory()`
 
-## Directory Class
+---
 
 `CreateDirectory(path)` : 在指定的path中建立資料夾。<br>
 如下所示，將會在C:\User\david中創建test這個資料夾，**如果User、david資料夾也不存在，就會一併建立**。
