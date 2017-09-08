@@ -1,6 +1,12 @@
 # 工科程式筆記
 
 # System.IO
+這裡的.IO簡介包含
+- `CreateDirectory(path)`
+- `Delete(path, recursive)`
+- `Move(sourceDirName, destDirName)`
+- `Exists(path)`
+- `GetCurrentDirectory()`
 
 ## Directory Class
 
@@ -39,7 +45,7 @@ if(Directory.Exists(@"C:\User\david\test"))
 
 ---
 
-`GetCurrentDirectory()` : 取得應用程式的所在資料夾(回傳String)。
+`GetCurrentDirectory()` : 取得應用程式的所在資料夾，回傳String。
 
 ---
 
