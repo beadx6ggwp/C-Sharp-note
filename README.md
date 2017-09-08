@@ -5,11 +5,11 @@
 ## Directory Class
 
 幾個常用的方法
-- `CreateDirectory(path)`
-- `Delete(path, recursive)`
-- `Move(sourceDirName, destDirName)`
-- `Exists(path)`
-- `GetCurrentDirectory()`
+- `CreateDirectory(path)` : 在指定的path中建立資料夾。
+- `Delete(path, recursive)` : 刪除path指定的資料夾。
+- `Move(sourceDirName, destDirName)`: 將sourceDirName指定的**資料夾或檔案**移動到destDirName指定的位置。
+- `Exists(path)`: 回傳path指定的資料夾是否存在，是就回傳true，否則回傳false。
+- `GetCurrentDirectory()` : 取得應用程式的所在資料夾，回傳String。
 
 ---
 
