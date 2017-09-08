@@ -5,7 +5,7 @@
 ## `Directory Class`
 
 CreateDirectory(path) : 在指定的path中建立資料夾
-```cs
+```csharp
 Console.Write()
 Directory.CreateDirectory(path);
 ```
